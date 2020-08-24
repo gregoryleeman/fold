@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family:"Courier New", Courier, monospace;
+  margin: 0;
+  height: 100%;
+  background-color: #898099;
+  position: relative;
+}
+h1{
+  margin:0 ;
+}
+p{
+  white-space: pre;
+  line-height: 0.7;
+}
+a:link, a:visited, a:hover, a:active{
+    color: white;
+    text-decoration: none;
+}
+textarea{
+  font-family:"Courier New", Courier, monospace;
+  width: 100%;
+  height: 320px;
+  font-size: 14px;
+}
+input[type=submit] {
+  float: left;
+  border-radius: 5px;
+  font-family:"Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  width: 90px;
+  height:25px;
+  background: #4ABDAC;
+  color: black;
+  margin-right:5px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  color: white;
+}
+.top{
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+	color: black;
+	width: 100%;
+	background-color: #4ABDAC;
+}
+.middle{
+  padding: 20px;
+  padding-right: 40px;
+	color: black;
+	width: 100%;
+	background-color: #DFDCE3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bottom{
+  padding: 20px;
+	color: black;
+	width: 100%;
+	background-color: white;		
+}
+.foot{
+  padding: 20px;
+	color: white;
+	width: 100%;
+	background-color: #898099;
+	height: 100%;
+}
+.center{
+	width: 600px;
+}
