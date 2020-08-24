@@ -7,5 +7,5 @@ sqs <- lapply(strsplit(sqs, split=",")[[1]], function(x){
 batch <- casefold(str2chr("GACATTACACGT"), upper=TRUE);
 barlen <- as.integer(8);
 side <- "right";
-sess <- "ydYXCNOJt00Z";
+sess <- "RJm4uIoRITeO";
 sqlen <- NA;
